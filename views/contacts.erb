@@ -1,0 +1,10 @@
+<a href="http://localhost:4567">Index</a>
+
+<h1>Contacts</h1>
+<h2>[First Name, Last Name, Email, Notes]</h2>
+
+<ul>
+  <% @contacts.each do |contact|%>
+  <li><%= contact.full_name %> | <%= contact.email %>  | <%= contact.note %></li>
+  <% end %>
+</ul>
