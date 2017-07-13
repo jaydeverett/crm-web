@@ -2,13 +2,13 @@
 
 
 <div class="contactsheader">
-  <p>There are <span>5</span> contacts</p>
+  <p>There are <span><%= Contact.count %></span> contacts</p>
 </div>
 
 <ul>
   <% @contacts.each do |contact|%>
   <div class="contactblock">
-  <li><%= contact.full_name %> (<%= contact.email %>)
+  <li><a href="/contacts/<%=contact.id%>"><%= contact.full_name %> (<%= contact.email %>)</a>
     <br>
     <span><a href="#">edit</a> | <a href="#">delete</a></span></li>
     <% end %>
