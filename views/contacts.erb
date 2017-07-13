@@ -1,10 +1,18 @@
-<a href="http://localhost:4567">Index</a>
+<div class="centerblock">
 
-<h1>Contacts</h1>
-<h2>[First Name, Last Name, Email, Notes]</h2>
+
+<div class="contactsheader">
+  <p>There are <span>5</span> contacts</p>
+</div>
 
 <ul>
   <% @contacts.each do |contact|%>
-  <li><%= contact.full_name %> | <%= contact.email %>  | <%= contact.note %></li>
-  <% end %>
+  <div class="contactblock">
+  <li><%= contact.full_name %> (<%= contact.email %>)
+    <br>
+    <span><a href="#">edit</a> | <a href="#">delete</a></span></li>
+    <% end %>
+  </div>
+
 </ul>
+</div>

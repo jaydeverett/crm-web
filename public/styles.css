@@ -1,0 +1,77 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.main {
+  width: 90%;
+}
+
+
+.titleblock {
+  color: white;
+  background-color: #1E1F1E;
+  text-align: center;
+  padding: 15px;
+}
+
+.sitebuttons a {
+  display: block;
+  text-align: center;
+  background-color: #B3B8B4;
+  text-decoration: none;
+  color: white;
+  margin: 1px 0px;
+  padding: 5px 0 ;
+}
+
+.sitebuttons a:hover {
+  background-color: #CFD4CF;
+}
+
+.centerblock {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.contactsheader p {
+  background-color: #E86E71;
+  padding: 7px 15px;
+  font-size: 15px;
+}
+
+.contactsheader p span {
+  font-weight: bold;
+  border-bottom: 2px solid #4AE5E8;
+}
+
+.contactsheader ul {
+  padding-left: 0px;
+}
+
+.contactblock li {
+  background-color: #4AE5E8;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 13px 15px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.contactblock li span {
+  font-size: 10px;
+}
+
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 1px 0;
+}
