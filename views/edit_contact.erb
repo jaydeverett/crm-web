@@ -1,4 +1,13 @@
+<div class="editcontactpage">
+
 <h1>Edit a Contact</h1>
+<br>
+
+<a href="/contacts/<%= @contact.id %>">Back to Contact</a>
+
+<br>
+<br>
+
 
 <form action='/contacts/<%= @contact.id %>' method='post'>
   <input type='hidden' name='_method' value='put'>
@@ -8,3 +17,5 @@
   <input type='text' name='note' value='<%= @contact.note %>'>
   <input type='submit' value='Edit Contact'>
 </form>
+
+</div>

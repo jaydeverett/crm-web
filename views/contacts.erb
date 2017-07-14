@@ -10,7 +10,7 @@
   <div class="contactblock">
   <li><a href="/contacts/<%=contact.id%>"><%= contact.full_name %> (<%= contact.email %>)</a>
     <br>
-    <span><a href="#">edit</a> | <a href="#">delete</a></span></li>
+    <span><a href="/contacts/<%=contact.id%>/edit">edit</a> | <a href="/contacts/<%=contact.id%>">delete</a></span></li>
     <% end %>
   </div>
 

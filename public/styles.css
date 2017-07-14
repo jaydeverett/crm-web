@@ -67,6 +67,18 @@ html {
   font-size: 10px;
 }
 
+.editcontactpage{
+  text-align: center;
+}
+
+.showcontactpage li {
+  text-align: center !important;
+}
+
+body > main > div > form {
+  text-align: center;
+}
+
 
 footer {
   color: white;
